@@ -158,3 +158,56 @@ body {
   border-right: 10px solid transparent;
   border-top: 10px solid #000;
 }
+
+.chart__bar {
+  -webkit-animation: slide-up 250ms ease-out;
+-ms-animation: slide-up 250ms ease-out;
+-moz-animation: slide-up 250ms ease-out;
+-o-animation: slide-up 250ms ease-out;
+  animation: slide-up 250ms ease-out;
+}
+
+@keyframes slide-up {
+  0% {
+    top: 10em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+@-webkit-keyframes slide-up {
+  0% {
+    top: 10em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+@-ms-keyframes slide-up {
+  0% {
+    top: 10em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+@-moz-keyframes slide-up {
+  0% {
+    top: 10em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+@-o-keyframes slide-up {
+  0% {
+    top: 10em;
+  }
+  100% {
+    top: 0em;
+  }
+}
